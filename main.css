@@ -2,13 +2,13 @@
     box-sizing: border-box;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     list-style-type: none;
+    transition: 0.5s;
 }
 
 :root {
-    --bkgd: #0A0A0A;
-    --txt: white;
-    --acc: #333333;
-    transition: 0.5s;
+    --bkgd: #F7F7F7;
+    --txt: #0A0A0A;
+    --acc: rgb(180, 180, 180);
 }
 
 body {
@@ -35,7 +35,6 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border-bottom: 1px solid var(--txt);
 }
 
 nav {
@@ -209,9 +208,6 @@ img {
         grid-template-rows: auto auto;
         grid-template-areas: "name" "links";
     }
-    ul>li {
-        border-bottom: 1px solid var(--txt);
-    }
     ul li>a {
         padding: 20px 13px;
     }
@@ -225,7 +221,6 @@ img {
     }
     #links {
         background: rgba(0, 0, 0, 0.1);
-        border-bottom: 1px solid var(--txt);
         height: 0px;
         grid-area: links;
         display: none;
