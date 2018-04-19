@@ -178,6 +178,9 @@ img {
         align-content: center;
         justify-self: center;
     }
+    .name:hover{
+        background: var(--bkgd);
+    }
     .menu {
         height: 50px;
         width: 50px;
