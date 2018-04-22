@@ -67,13 +67,14 @@ ul li>a {
     grid-area: links;
     text-decoration: none;
     transition: 0.5s;
+    font-weight: normal;
 }
 
 #links {
     grid-area: links;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    justify-items: start;
+    justify-items: end;
     align-items: center;
 }
 
