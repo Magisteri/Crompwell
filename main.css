@@ -80,7 +80,7 @@ ul li>a {
 .name {
     grid-area: name;
     display: inline-block;
-    align-content: center;
+    align-content: start;
 }
 
 a:hover {
