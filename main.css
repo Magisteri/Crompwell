@@ -81,7 +81,7 @@ ul li>a {
 .name {
     grid-area: name;
     display: inline-block;
-    align-content: start;
+    align-self: start;
 }
 
 a:hover {
