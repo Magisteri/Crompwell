@@ -218,7 +218,7 @@ img {
     .smNav {
         display: grid;
         grid-template-columns: auto 1fr;
-        align-self: center;
+        align-self: start;
     }
     #links {
         background: rgba(0, 0, 0, 0.1);
