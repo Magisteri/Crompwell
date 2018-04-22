@@ -73,7 +73,7 @@ ul li>a {
     grid-area: links;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    justify-items: end;
+    justify-items: start;
     align-items: center;
 }
 
