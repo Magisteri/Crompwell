@@ -51,6 +51,7 @@ nav {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    align-self: center;
 }
 
 ul {
@@ -228,7 +229,7 @@ img {
         display: none;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, 1fr);
-        justify-items: start;
+        justify-items: stretch;
         align-items: center;
     }
 }
