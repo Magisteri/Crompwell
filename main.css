@@ -76,6 +76,7 @@ ul li>a {
     grid-template-columns: repeat(5, 1fr);
     justify-items: end;
     align-items: center;
+    font-size: 13px;
 }
 
 .name {
