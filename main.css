@@ -164,6 +164,7 @@ img {
     cursor: default; 
     padding: 15px;
     border-radius: 3px;
+    background: none;
     transition: 0.5s;
 }
 

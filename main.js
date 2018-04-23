@@ -54,7 +54,7 @@ function switchTheme() {
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        btn.style.opacity = "0.25";
+        btn.style.opacity = "1";
         btn.style.cursor = "pointer";
     } else {
         btn.style.opacity = "0";
