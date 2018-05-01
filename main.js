@@ -43,11 +43,14 @@ function switchTheme() {
         document.documentElement.style.setProperty('--bkgd', '#0A0A0A');
         document.documentElement.style.setProperty('--txt', 'white');
         document.documentElement.style.setProperty('--acc', '#606060');
+        document.documentElement.style.setProperty('--acc2', 'rgb(48,48,48)');
+
         l += 1;
     } else {
         document.documentElement.style.setProperty('--bkgd', '#F7F7F7');
         document.documentElement.style.setProperty('--txt', '#0A0A0A');
         document.documentElement.style.setProperty('--acc', 'rgb(180, 180, 180)');
+        document.documentElement.style.setProperty('--acc2', 'rgb(207,207,207)');
         l = 0;
     }
 }
@@ -56,9 +59,11 @@ function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         btn.style.opacity = "1";
         btn.style.cursor = "pointer";
+        header.style.borderBottomColor = "var(--acc)";
     } else {
         btn.style.opacity = "0";
         btn.style.cursor = "default";
+        header.style.borderBottomColor = "var(--bkgd)";
     }
 }
 
