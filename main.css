@@ -41,7 +41,6 @@ body {
     -ms-user-select: none;
     user-select: none;
     border-bottom: 1px solid var(--acc);
-    z-index: 2;
 }
 
 nav {
@@ -256,14 +255,15 @@ a > img {
     z-index: 99;
     font-size: 10px;
     outline: none;
-    border: 1px solid var(--acc);
-    color: var(--acc);
+    border: 1px solid var(--acc2);
+    color: var(--acc2);
     background: var(--bkgd);
     cursor: default; 
     padding: 15px;
     border-radius: 3px;
     background: none;
     transition: 0.5s;
+    z-index: 3;
 }
 
 #myBtn:hover {
